@@ -60,37 +60,37 @@ const display_mid = function () {
     if (user == "stone") {
         message1.innerHTML =
             `
-        <div id="message1"><h1>YOU</h1><br><img src="/stone.png" alt="stone-pic"></div> 
+        <div id="message1"><h1>YOU</h1><br><img src="stone.png" alt="stone-pic"></div> 
         `
     }
     else if (user == "paper") {
         message1.innerHTML =
             `
-        <div id="message1"><h1>YOU</h1><br><img src="/paper.png" alt="paper-pic"></div> 
+        <div id="message1"><h1>YOU</h1><br><img src="paper.png" alt="paper-pic"></div> 
         `
     }
     else if (user == "scissor") {
         message1.innerHTML =
             `
-        <div id="message1"><h1>YOU</h1><br><img src="/scissor.png" alt="scissor-pic"></div> 
+        <div id="message1"><h1>YOU</h1><br><img src="scissor.png" alt="scissor-pic"></div> 
         `
     }
     if (n <= 33) {
         message2.innerHTML =
             `
-        <div id="message2"><h1>Comp</h1><br><img src="/stone.png" alt="stone-pic"></div> 
+        <div id="message2"><h1>Comp</h1><br><img src="stone.png" alt="stone-pic"></div> 
         `
     }
     if (n >= 34 && n <= 67) {
         message2.innerHTML =
             `
-        <div id="message2"><h1>Comp</h1><br><img src="/paper.png" alt="stone-pic"></div> 
+        <div id="message2"><h1>Comp</h1><br><img src="paper.png" alt="stone-pic"></div> 
         `
     }
     if (n >= 68 && n <= 100) {
         message2.innerHTML =
             `
-        <div id="message1"><h1>Com</h1><br><img src="/scissor.png" alt="stone-pic"></div> 
+        <div id="message1"><h1>Com</h1><br><img src="scissor.png" alt="stone-pic"></div> 
         `
     }
 }
